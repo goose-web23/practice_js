@@ -5,11 +5,11 @@ const reasonText = 'мне это интересно'
 const numberofMonth = 6
 
 let myInfoText = `Всем привет! Меня зовут ${myName}. Сейчас я изучаю язык программирования ${programmingLanguage} на курсе по ${programmingLanguage} у ${courseCreatorName}. Я хочу стать веб-разработчиком, потому что ${reasonText}. До этого я изучала ${programmingLanguage} ${numberofMonth} месяцев. Я уверена, что пройду данный курс до конца!`;
-// task1
+//task1
 // console.log(myInfoText)
 
-myInfoText = myInfoText.replaceAll('JavaScript', programmingLanguage.toUpperCase())
 //task2
+// myInfoText = myInfoText.replaceAll('JavaScript', programmingLanguage.toUpperCase())
 // console.log(myInfoText)
 // console.log(`Длина строки - ${myInfoText.length}`)
 // console.log(`Первыый символ - ${myInfoText[0]}. Последний символ - ${myInfoText[myInfoText.length - 1]}`)
@@ -41,10 +41,10 @@ myInfoText = myInfoText.replaceAll('JavaScript', programmingLanguage.toUpperCase
 // alert(`Результат: ${userText}`)
 
 //task7
-let javaScriptDescription = 'JavaScript  - мультипарадигменный язык программирования. Поддерживает объектно-ориентирвоанный, императивный и функциональный стили. Является реализацией спецификации ECMAScript. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений';
+// let javaScriptDescription = 'JavaScript  - мультипарадигменный язык программирования. Поддерживает объектно-ориентирвоанный, императивный и функциональный стили. Является реализацией спецификации ECMAScript. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений';
 
-const middleindex = Math.floor(javaScriptDescription.length / 2)
-javaScriptDescription = javaScriptDescription.slice(0, middleindex).replaceAll('а', 'А')
-javaScriptDescription = javaScriptDescription.replaceAll(' ', '')
-const middleSymbol = javaScriptDescription[Math.floor(javaScriptDescription.length / 2)]
-console.log(`Строка: ${javaScriptDescription.repeat(3)}. Символ посередине - ${middleSymbol}`)
+// const middleindex = Math.floor(javaScriptDescription.length / 2)
+// javaScriptDescription = javaScriptDescription.slice(0, middleindex).replaceAll('а', 'А')
+// javaScriptDescription = javaScriptDescription.replaceAll(' ', '')
+// const middleSymbol = javaScriptDescription[Math.floor(javaScriptDescription.length / 2)]
+// console.log(`Строка: ${javaScriptDescription.repeat(3)}. Символ посередине - ${middleSymbol}`)

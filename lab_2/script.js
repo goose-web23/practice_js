@@ -34,24 +34,24 @@
 // alert(`Тест завершён. Правильные ответы - ${correctAnswers}. Неправильных ответов - ${incorrectAnswers}`);
 
 //task3
-// const answer1 = confirm('JavaScript появился в 1995 году?')
-// if (answer1) {
-//     alert('Верно')
-// } else {
-//     alert('Неверно, JavaScript появился в 1995 год')
-// }
-// const answer2 = confirm('Спецификация JavaScript называется ECMAScript?')
-// if (answer2) {
-//     alert('Верно')
-// } else {
-//     alert('Неверно, спецификация JavaScript называется ECMAScript')
-// }
-// const answer3 = confirm('JavaScript был создан за 1 месяц?')
-// if (answer3) {
-//     alert('Верно')
-// } else {
-//     alert('Неверно, javaScript был создан за 1 месяц?')
-// }
+const answer1 = confirm('JavaScript появился в 1995 году?')
+if (answer1) {
+    alert('Верно')
+} else {
+    alert('Неверно, JavaScript появился в 1995 год')
+}
+const answer2 = confirm('Спецификация JavaScript называется ECMAScript?')
+if (answer2) {
+    alert('Верно')
+} else {
+    alert('Неверно, спецификация JavaScript называется ECMAScript')
+}
+const answer3 = confirm('JavaScript был создан за 1 месяц?')
+if (answer3) {
+    alert('Верно')
+} else {
+    alert('Неверно, javaScript был создан за 1 месяц?')
+}
 
 //task4
 // let i = 0;

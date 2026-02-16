@@ -8,7 +8,7 @@
 // const getName3 = (name) => {
 //     return `Имя равно ${name}`;
 // };
-
+//()=>
 // console.log(getName1("Анна"));
 // console.log(getName2("Иван"));
 // console.log(getName3("Мария"));
